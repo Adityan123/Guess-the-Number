@@ -22,7 +22,7 @@ const displayNumber = function (num) {
 //Check Button Functionality
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
-  console.log(guess);
+  // console.log(guess);
   if (score > 1) {
     if (!guess) {
       displayMessage('📛 No Number...');
